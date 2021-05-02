@@ -14,7 +14,7 @@ This site does those things, without a ton of code.  It has a single page templa
 
 Some screenshots:
 
-<a href="doc/screenshot-index.png><img src="doc/screenshot-index.png" width=600 alt="Index page screenshot"></a><a href="doc/screenshot-post.png"><img src="doc/screenshot-post.png" width=600 alt="Post screenshot"></a>
+<a href="doc/screenshot-index.png"><img src="doc/screenshot-index.png" width=600 alt="Index page screenshot"></a><a href="doc/screenshot-post.png"><img src="doc/screenshot-post.png" width=600 alt="Post screenshot"></a>
 
 
 Setup and Getting Started
