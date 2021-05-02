@@ -34,7 +34,7 @@ Installation requires [Pandoc](https://pandoc.org/installing.html), [GNU Make](h
 
 ### Make the example site
 
-    `make serve` will build the example site into the `site/` directory and launch a local webserver on port 8000.  Open [http://localhost:8000](http://localhost:8000) in a browser to view the site.
+`make serve` will build the example site into the `site/` directory and launch a local webserver on port 8000.  Open [http://localhost:8000](http://localhost:8000) in a browser to view the site.
 
 
 Customization
