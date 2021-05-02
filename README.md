@@ -30,7 +30,7 @@ Installation requires [Pandoc](https://pandoc.org/installing.html), [GNU Make](h
 
 ### Pip install requirements
 
-    pip install requirements.txt
+    pip install -r requirements.txt
 
 ### Make the example site
 

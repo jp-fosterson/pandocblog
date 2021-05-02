@@ -113,6 +113,8 @@ tmp:
 	mkdir tmp
 site/assets:
 	mkdir -p site/assets
+site/posts:
+	mkdir -p site/posts
 
 # clean up
 clean:
