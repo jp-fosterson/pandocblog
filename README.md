@@ -64,6 +64,16 @@ To add a banner image to the header, place your banner image in `src/assets/bann
 
 The source page template is stored in `src/templates/page.html`.  It uses [Pandoc template syntax](https://pandoc.org/MANUAL.html#templates) for substitution variables.  It's divided into three `div`s: `header`, `main`, and `footer`.  The header section is formatted like a title banner, the main section is where the page content goes, and the footer is set up to contain ancillary information like social media links, copyright notices, etc.
 
+### Adding Posts
+
+Blog posts are added by putting date-coded markdown files in the `src/posts/` directory.  Post filenames must conform to the pattern `YYYY-MM-DD-a-file-name.md`, similar to the convention used in Jekyll.  Running `make` converts these posts to HTML files in the `site/posts/` directory and updates the site index page.  (Note that, unlike with Jekyll, there are no /year/month/day subdirectories.)
+
+### Adding Pages that aren't Posts
+
+Markdown pages in the `src/pages/` directory (or any subdirectories) are converted to HTML and placed in the `site/` directory.  For example `src/pages/about.md` produces the page `site/about.md`.  Raw HTML pages in `pages` are copied to the corresponding place in the `site/` directory.  No transformation of any kind is applied to them.
+
+Once deployed, non-post pages will be accessible directly by URL, but won't be automatically linked from anywhere within the site.  In order for them to be visible or accessible from within the site, you must link to them from within a post or another page.  One method is to link them from the page header or footer in the page template, `src/templates/page.html`  The "About" page is linked in this way.
+
 ### Images and other assets
 
 When you `make` the site or `make assets` the entire contents of `src/assets` is copied into `site/assets`, unmodified.  To use these files, link them using site-relative links, as in `![Never gonna give you up.](/assets/astley.jpg).`
