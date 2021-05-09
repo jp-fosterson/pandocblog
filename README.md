@@ -28,6 +28,9 @@ Installation requires [Pandoc](https://pandoc.org/installing.html), [GNU Make](h
     git clone https://github.com/jp-fosterson/pandocblog.git
     cd pandocblog
 
+...or fork the repo (it's a template), and clone your own copy.
+
+
 ### Pip install requirements
 
     pip install -r requirements.txt
